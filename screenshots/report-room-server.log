@@ -1,0 +1,21 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://127.0.0.1:8502
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+  Stopping...
+2026-10-11 21:56:29.793 Uncaught exception GET /_stcore/stream (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8502', method='GET', uri='/_stcore/stream', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/Users/sal/Desktop/Agentic AI course project/.venv/lib/python3.9/site-packages/tornado/websocket.py", line 659, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/Users/sal/Desktop/Agentic AI course project/.venv/lib/python3.9/site-packages/streamlit/web/server/browser_websocket_handler.py", line 268, in on_message
+    self._runtime.handle_backmsg(self._session_id, msg)
+  File "/Users/sal/Desktop/Agentic AI course project/.venv/lib/python3.9/site-packages/streamlit/runtime/runtime.py", line 488, in handle_backmsg
+    raise RuntimeStoppedError(f"Can't handle_backmsg (state={self._state})")
+streamlit.runtime.runtime.RuntimeStoppedError: Can't handle_backmsg (state=RuntimeState.STOPPING)

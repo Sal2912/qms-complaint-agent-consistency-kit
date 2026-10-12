@@ -1,0 +1,7 @@
+                   rows  errors  invalid  average_turns  average_latency_s
+model                                                                     
+claude-haiku-5-5     25       0        0           1.04               4.23
+claude-sonnet-5-5    25       0        0           1.56               7.26
+claude-opus-5-5      25       0        0           1.40               7.97
+
+Anthropic-only smoke test: all three requested model names accepted; three workers per model; 26 tests passed.

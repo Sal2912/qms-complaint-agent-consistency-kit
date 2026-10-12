@@ -1,0 +1,7 @@
+                   rows  errors  invalid  average_turns  average_latency_s
+variant                                                                   
+V1_zeroshot_norag    25       2        2           1.00               3.74
+V3_cot_norag         25       1        1           1.00               5.54
+V4_cot_rag           25       0        0           1.48               6.94
+
+All 1438 original rows preserved; 75 unique new smoke observations; 11 truncated attempts retried and retained. No full runs started.

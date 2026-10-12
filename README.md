@@ -2,9 +2,9 @@
 
 Can you trust an AI agent with FDA reportability? Same complaint, 5 wordings, 3,600 scored decisions.
 
-[Demo video](<LOOM_LINK>) | [Project doc](<DOC_LINK>)
+[Demo video](https://drive.google.com/drive/folders/1NF4s8Dg7NEFuC6LW1NQ8aGH5Ba3ht1iQ?usp=sharing) | [Project doc](https://drive.google.com/drive/folders/1NF4s8Dg7NEFuC6LW1NQ8aGH5Ba3ht1iQ?usp=sharing)
 
-![Agent Report Room: six complaint-triage agents compared](screenshots/01_report_room.png)
+![Agent Report Room: six complaint-triage agents compared](screenshots/report-room-dark-1440x900.png)
 
 ## The problem
 
@@ -91,20 +91,7 @@ python metrics.py data/results.csv
 
 The **Agent Report Room** compares all six agents, with live device, difficulty, source, and wording filters. Tiles autoplay independently; Pause reveals their final view, and Expand opens a larger chart with explanations and underlying data. **Explore** provides confident-but-wrong cases, source links, decision grids, transcripts, and full metrics. Filters persist when switching pages.
 
-<table>
-  <tr>
-    <td width="50%"><img src="screenshots/02_change_its_mind.png" alt="Decision matrix for one complaint across agents and attempts" width="100%"/><br/>Same complaint, 15 attempts: answers change.</td>
-    <td width="50%"><img src="screenshots/03_wording_bubbles.png" alt="Agent accuracy and consistency across wording styles" width="100%"/><br/>How wording moves each agent.</td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="screenshots/04_out_of_100.png" alt="Outcome distribution represented as 100 squares" width="100%"/><br/>What happens out of 100 decisions.</td>
-    <td width="50%"><img src="screenshots/05_stable_answers.png" alt="Stable and changing answers for each complaint and agent" width="100%"/><br/>How many complaints get a stable answer.</td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="screenshots/06_fingerprint_2x2.png" alt="Wording fingerprint and Haiku prompt and rulebook comparison" width="100%"/><br/>Wording fingerprint and prompt/rulebook gains.</td>
-    <td width="50%"></td>
-  </tr>
-</table>
+
 
 ## How to run
 
